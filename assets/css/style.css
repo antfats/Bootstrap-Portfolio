@@ -1,14 +1,17 @@
 h1{
-    background-color:#4aaaa5;
-
-
+    background:#0067B6;
+    color:white;
+    display:inline;
 }  
-p{
-    margin-left:3px;
+#p01{
+    margin-left:30px;
         
 }
 body{
-    background:blue;
 
+
+}   
+.nav{
+    display:inline;
 
 }

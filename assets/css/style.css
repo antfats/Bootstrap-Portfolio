@@ -21,7 +21,16 @@ body{
     background-image:url("../images/pipes.png");
     
 }   
-.nav{
+.navIndex{
+        font-size:20px;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+        background:white;
+        float:right;
+        margin-right:400px;
+        margin-top:30px;
+}
+
+.navContact{
     font-size:20px;
     font-family: 'Georgia', Times, Times New Roman, serif;
     background:white;
@@ -72,22 +81,22 @@ body{
     
 }
 
-#navBar{
+.nav{
     background:white;
     border-bottom:solid;
     border-color:#cccccc;
     
 }
 #myName{
-background:white;
-border-bottom:solid;
-border-color:#cccccc;
-border-bottom-width:100%;
+    background:white;
+    border-bottom:solid;
+    border-color:#cccccc;
+    border-bottom-width:100%;
 }
+
 #aboutMe{
-    margin-bottom:55px;
+    margin-bottom:35px;
     margin-top:5px;
-    margin-left:5px;
     padding: 5px 10px 5px 10px;
     color:#4aaaa5;
     font-family:'Georgia', Times, Times New Roman, serif;

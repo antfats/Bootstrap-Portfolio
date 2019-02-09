@@ -5,8 +5,13 @@ h1{
     margin-left:483px;
     display:table;
     overflow:auto;
-    margin-bottom:-550px;
-}  
+} 
+#navName{
+    display:table;
+    background:#4aaaa5;
+    color:white;
+    padding:15px 20px 15px 20px;
+}
 #p01{
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
     font-size:20px;
@@ -45,17 +50,16 @@ body{
     margin-top:25px;
 
 }
-#portfolio{
-    color:#4aaaa5;
-    font-size:20px;
-    margin-top:5px;
 
-}
 #contact{
     margin-right:10px;
     color:#4aaaa5;
     margin-top:5px;
-
+ font-size:20px;
+}
+#contactPort{
+    color:#4aaaa5;
+    font-size:20px;
 }
 #contact2{
     color:#4aaaa5;
@@ -80,12 +84,16 @@ body{
     font-weight:15;
     
 }
-
-.nav{
+.navLinks{
+    margin-left:200px;
     background:white;
-    border-bottom:solid;
-    border-color:#cccccc;
     
+}
+nav{
+    float:right;
+    color:white;
+    margin-right:475px;
+
 }
 #myName{
     background:white;
@@ -102,6 +110,7 @@ body{
     font-family:'Georgia', Times, Times New Roman, serif;
 
 }
+
 /*Start of my contact page!!! Some of the contact stuff such as the nav bar, and h2 are from the index css*/
 #contName{
     color:#777777;
@@ -118,4 +127,27 @@ body{
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 
 
+}
+/*portfolio speccific css*/
+#portfolioHeading{
+    float:left;
+    background:#4aaaa5;
+    color:white;
+    padding:15px 20px 15px 20px;
+}
+#aboutPort{
+    font-size:20px;
+    color:#4aaaa5;
+    margin-top:15px;
+
+}
+#portfolio{
+    color:#4aaaa5;
+    font-size:20px;
+    margin-top:5px;
+
+}
+#portfolioPort{
+    color:#4aaaa5;
+    font-size:20px;
 }
